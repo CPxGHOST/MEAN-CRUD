@@ -3,20 +3,17 @@ const Schema = mongoose.Schema;
 
 const employeeSchema = new Schema({
     name: {
-        type: String,
-        required: true
+        type: String
     },
     position: {
-        type: String,
-        required: true
+        type: String
     },
     office: {
-        type: String,
-        required: true
+        type: String
     },
     salary: {
-        type: Number,
-        required: true
+        type: Number
+      
     }
 }, {timestamps: true});
 
